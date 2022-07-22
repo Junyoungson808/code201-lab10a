@@ -51,6 +51,7 @@ article.recipe {
 .article-text {
   margin: 24px 0px;
   font-family: 'Noto Serif', serif;
+  text-indent: 36px;
 }
 
 .ingredients-container {
@@ -109,3 +110,30 @@ article.recipe {
   width: 72%;
   justify-self: end;
 }
+
+
+.footer-end-content {
+  color: #aaa;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 46px;
+}
+
+footer {
+  width: 80%;
+ padding: 24px 0px;
+}
+
+.top-line-footer-separator {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 46px;
+}
+
+.logo-line {
+  background: #ccc;
+  height: 1px;
+  width: 100%;
+}
+

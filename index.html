@@ -3,12 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Patrick+Hand&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header-style.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/app.js" defer></script>
   <title>Cooking Page</title>
 </head>
 <body>
+
+  <header>
+    <div class="upper-header">
+      <section class="logo-container">
+        <img src="img/logo.png" alt="logo icon">
+        <div class="logo-text-container">
+          <h2>Delicious</h2>
+          <h3>The best food blog on the web.</h3>
+        </div>
+      </section>
+      <section class="icons-container">
+        <section class="social-media-icons-container">
+          <img class="header-icon" src="img/fb-icon.png" alt="Facebook Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/twit-icon.png" alt="Twitter Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/gp-icon.png" alt="Google+ Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/insta-icon.png" alt="Instagram Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/flic-icon.png" alt="Flickr Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/pint-icon.png" alt="Pinterest Icon" width="24px" height="24px">
+        </section>
+        <section class="feed-icons-container">
+          <img class="header-icon" src="img/rss-icon.png" alt="RSS Icon" width="24px" height="24px">
+          <img class="header-icon" src="img/mail-icon.png" alt="Email Icon" width="24px" height="24px">
+        </section>
+      </section>
+    </div>
+    <div class="header-bottom-border"></div>
+  </header>
+
+  <main>
+    <article class="recipe chocolate-pizza">
+      <div class="upper-content">
+        <section class="article-header">
+          <h1 class="recipe-title">Chocolate Pizza</h1>
+          <h2 class="recipe-date-category">Posted on 15 dec 2013 / Desserts</h2>
+        </section>
+        <button class="print-button"><img src="img/print-icon.png" alt="Print Icon">Print</button>
+      </div>
+      <img class="recipe-main-image" src="img/choco-pizza.png" alt="Chocolate Pizza Image">
+      <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis commodi error vel ut, debitis perferendis, deserunt mollitia enim soluta inventore, cum ipsa a quos provident porro quae est eius numquam nam quo officia illo? Placeat vitae ut veritatis numquam facere voluptate quam nulla nostrum deserunt et, fugiat natus autem consequuntur.</p>
+      <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita facere dolorem soluta ipsam cumque rerum, recusandae sequi iste alias eum et repellat, non neque dolorum, perspiciatis ad accusamus sit velit! Cum pariatur, vitae, ipsa repellat perferendis facere dolor molestiae doloribus numquam consectetur asperiores, esse at perspiciatis delectus dolorum? Pariatur.</p>
+      <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus enim qui nulla nemo, sapiente ratione at cumque fuga dignissimos repellat itaque labore rerum, consectetur saepe doloremque esse! Vero officia neque itaque exercitationem minus voluptatem iste in eos quaerat doloribus ut cum corporis, porro, sapiente, asperiores nulla assumenda adipisci laboriosam aspernatur?</p>
+
+      <section class="ingredients-container">
+        <ul class="ingredients-list">
+          <li class="ingredient"><input type="checkbox">1 1/2 cups milk</li>
+          <li class="ingredient"><input type="checkbox">1/2 cup mascarpone</li>
+          <li class="ingredient"><input type="checkbox">1/2 tsp pink salt</li>
+          <li class="ingredient"><input type="checkbox">1 lb Black Mission Figs</li>
+          <li class="ingredient"><input type="checkbox">1/2 cup brown sugar</li>
+          <li class="ingredient"><input type="checkbox">2-4 tbsp water</li>
+          <li class="ingredient"><input type="checkbox"> 1 1/2 cups heavy cream</li>
+          <li class="ingredient"><input type="checkbox">1/3 cup granulated sugar</li>
+          <li class="ingredient"><input type="checkbox">2 egg yolks</li>
+          <li class="ingredient"><input type="checkbox">1 lemon, juiced</li>
+          <li class="ingredient"><input type="checkbox">2 tbsp butter</li>
+          <li class="ingredient"><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
+        </ul>
+      </section>
+      <div class="article-bottom-border"></div>
+      <section class="profile-section">
+        <img src="img/van-pic.png" alt="Vanessa Stevenson Profile" class="vanity-img" height="68px" width="71px">
+        <section class="profile-info">
+          <h2 class="name">Vanessa Stevenson</h2>
+          <p class="about-me">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </section>
+        <button class="share-recipe-button">Share Recipe</button>
+      </section>
+    </article>
+  </main>
+
+  <footer></footer>
   
 </body>
 </html>

@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  box-sizing: border-box;
+  width: 80vw;
+  padding: 24px 0px;
+}
+
+.upper-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.logo-text-container h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #242424;
+}
+
+.logo-text-container h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .2px;
+  color: #484848;
+}
+
+.icons-container {
+  margin-left: auto;
+  display: flex;
+  /* padding: 20px; */
+}
+
+.icons-container>* {
+  display: flex;
+  margin-left: 4px;
+}
+
+.icons-container>*>* {
+  padding: 0;
+  margin: 0;
+}
+
+.header-icon {
+  cursor: pointer;
+}
+
+.header-bottom-border {
+  width: 100%;
+  height: 18px;
+  background-image: url(../img/hr-img.png);
+  background-color: white;
+}
